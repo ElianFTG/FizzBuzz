@@ -1,4 +1,4 @@
-import fizzBuzz from "./FizzBuzz";
+import secuenciafizzBuzz from "./secuenciaFizzBuzz";
 
 const first = document.querySelector("#primer-numero");
 
@@ -11,5 +11,5 @@ form.addEventListener("submit", (event) => {
   const firstNumber = Number.parseInt(first.value);
   
 
-  div.innerHTML = "<p>" + fizzBuzz(firstNumber) + "</p>";
+  div.innerHTML = "<p>" + secuenciafizzBuzz(firstNumber) + "</p>";
 });
