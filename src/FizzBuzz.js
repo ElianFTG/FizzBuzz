@@ -4,7 +4,7 @@ function fizzBuzz(numero) {
     if(num % 3 === 0){
         cadena = "Fizz";
     }
-    else if (num === 5) {
+    else if (num % 5 === 0) {
         cadena = "Buzz";
     }
     return cadena;

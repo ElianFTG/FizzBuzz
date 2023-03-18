@@ -13,12 +13,16 @@ describe("FizzBuzz", () => {
         const numero = fizzBuzz(3);
       expect(numero).toEqual('Fizz');
     });
-    it("Deberia devolver un Fizz si en los multiplos de 3", () => {
+    it("Deberia devolver un Fizz si es multiplo de 3", () => {
         const numero = fizzBuzz(6);
       expect(numero).toEqual('Fizz');
     });
     it("Deberia devolver un Buzz si es 5", () => {
         const numero = fizzBuzz(5);
+      expect(numero).toEqual('Buzz');
+    });
+    it("Deberia devolver un Buzz si es multiplo de 5", () => {
+        const numero = fizzBuzz(10);
       expect(numero).toEqual('Buzz');
     });
 });
