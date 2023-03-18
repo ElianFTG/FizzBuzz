@@ -25,4 +25,8 @@ describe("FizzBuzz", () => {
         const numero = fizzBuzz(10);
       expect(numero).toEqual('Buzz');
     });
+    it("Deberia devolver un FizzBuzz si es multiplo de 3 y 5", () => {
+        const numero = fizzBuzz(15);
+      expect(numero).toEqual('FizzBuzz');
+    });
 });
