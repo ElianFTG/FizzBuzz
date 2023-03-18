@@ -17,4 +17,8 @@ describe("FizzBuzz", () => {
         const numero = fizzBuzz(6);
       expect(numero).toEqual('Fizz');
     });
+    it("Deberia devolver un Buzz si es 5", () => {
+        const numero = fizzBuzz(5);
+      expect(numero).toEqual('Buzz');
+    });
 });
